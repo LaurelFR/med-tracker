@@ -31,9 +31,10 @@ export default function MedTracker() {
         <h5>Name</h5>
         <h5>50 mg</h5>
         <h5>9:00 AM</h5>
-        <h5>
+        <label className="check-container">
           <input type="checkbox" />
-        </h5>
+          <span className="checkmark"></span>
+        </label>
       </div>
       <div className="grid-container">
         <div className="grid-item">
