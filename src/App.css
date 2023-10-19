@@ -1,0 +1,35 @@
+h3 {
+  text-align: center;
+}
+
+h5 {
+  margin: 0;
+}
+
+input {
+  padding: 10px;
+}
+
+.med-box {
+  padding: 15px;
+  border: 1px solid black;
+  border-radius: 12px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 10px;
+  border: 1px solid blueviolet;
+  background: blueviolet;
+  border-radius: 10px;
+  row-gap: 6px;
+  column-gap: 6px;
+}
+
+.grid-item {
+  border: 1px solid blueviolet;
+  background: lightpink;
+  padding: 20px;
+  text-align: center;
+}
