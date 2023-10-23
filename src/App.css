@@ -101,3 +101,20 @@ input {
   padding: 20px;
   text-align: center;
 }
+
+.check-box {
+  width: 20px;
+  height: 20px;
+  background: white;
+  margin: 0 auto;
+}
+
+.fa-square {
+  font-size: 23px;
+  color: blue;
+}
+
+.fa-square-check {
+  font-size: 23px;
+  color: blue;
+}

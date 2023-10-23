@@ -1,6 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 
 export default function MedTracker() {
+  const [checkbox, setCheckbox] = useState(
+    <i className="fa-regular fa-square"></i>
+  );
+
+  function handleClick(event) {
+    event.preventDefault();
+    setCheckbox(<i class="fa-solid fa-square-check"></i>);
+  }
+
   return (
     <div className="MedTracker">
       <div className="mt-4 d-flex justify-content-evenly">
@@ -71,7 +80,12 @@ export default function MedTracker() {
           <h5>9:30 AM</h5>
         </div>
         <div className="grid-item">
-          <input type="checkbox" />
+          <div
+            className="d-flex align-items-center justify-content-center"
+            onClick={handleClick}
+          >
+            {checkbox}
+          </div>
         </div>
       </div>
     </div>
