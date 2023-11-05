@@ -36,10 +36,19 @@ export default function MedTracker() {
         <h3>Time</h3>
         <h3>Taken</h3>
       </div>
-      <div className="med-box d-flex justify-content-evenly">
-        <h5>Name</h5>
+      <div className="med-box d-flex justify-content-evenly mb-2">
+        <h5>Vitamin B</h5>
         <h5>50 mg</h5>
         <h5>9:00 AM</h5>
+        <label className="check-container">
+          <input type="checkbox" />
+          <span className="checkmark"></span>
+        </label>
+      </div>
+      <div className="med-box d-flex justify-content-evenly mb-3">
+        <h5>Vitamin D</h5>
+        <h5>50 mg</h5>
+        <h5>10:00 AM</h5>
         <label className="check-container">
           <input type="checkbox" />
           <span className="checkmark"></span>

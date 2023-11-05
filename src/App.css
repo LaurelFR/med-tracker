@@ -84,6 +84,10 @@ input {
   border-radius: 12px;
 }
 
+.med-box h5:first-of-type {
+  font-weight: bold;
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto auto;
@@ -92,7 +96,7 @@ input {
   background: blueviolet;
   border-radius: 10px;
   row-gap: 6px;
-  column-gap: 6px;
+  column-gap: none;
 }
 
 .grid-item {
